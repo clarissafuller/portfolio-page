@@ -3,7 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World!</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Clarissa Fuller</h1>
+      <nav>
+        <a href="#">Camera</a>
+        <a href="#">Tablet</a>
+        <a href="#">Toilet Paper</a>
+        <a href="#">Wooden Spoons</a>
+      </nav>
+      <img
+        id="headerpic"
+        src="https://cdn.vectorstock.com/i/1000x1000/00/12/dark-blue-stripes-abstract-background-vector-46340012.webp"
+        alt="profile picture"
+      />
+    </header>
+
+    <main>
+      <section class="box">
+        <h2>About Me</h2>
+        <p>Paragraoh about me sectuon thingdshufkewghfiuewgfekjwg</p>
+      </section>
+      <section class="box">
+        <h2>Work</h2>
+        <img
+          class="workpic"
+          src="02-Advanced-CSS/01-Activities/06-Stu_Responsive-Design/Unsolved/assets/images/camera.jpg"
+          alt="project 1 placeholder"
+        /><img
+          class="workpic"
+          src="02-Advanced-CSS/01-Activities/06-Stu_Responsive-Design/Unsolved/assets/images/tablet.jpg"
+          alt="project 2 placeholder"
+        /><img
+          class="workpic"
+          src="02-Advanced-CSS/01-Activities/06-Stu_Responsive-Design/Unsolved/assets/images/toilet-paper.jpg"
+          alt="project 3 placeholder"
+        /><img
+          class="workpic"
+          src="02-Advanced-CSS/01-Activities/06-Stu_Responsive-Design/Unsolved/assets/images/wooden-spoons.jpg"
+          alt="project 4 placeholder"
+        />
+      </section>
+      <form class="box">
+        <h2>Contact Me</h2>
+        <p>
+          <label for="username">Name:</label>
+          <!-- This element has a CSS declaration of `cursor: text` -->
+          <input id="username" type="text" placeholder="First Last" />
+        </p>
+        <p>
+          <label for="email">E-mail:</label>
+          <input id="email" type="text" placeholder="me@example.com" />
+        </p>
+      </form>
+    </main>
+  </body>
 </html>
