@@ -18,13 +18,9 @@ Clone the repository to your machine in a new Github repo. Copy all the files an
 
 This page can be used as a template for your own personal portfolio if you wish.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-![alt text](assets/images/camera.jpg)
+![alt text](assets/images/portfolio-screenshot.jpg)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
+  
 ## Credits
 
 Many thanks to my bootcamp teachers for helping me out with this!
