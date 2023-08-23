@@ -3,7 +3,6 @@
   background-color: rgb(222, 235, 233);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border: 2px solid red;
   color: #13293d;
 }
 
@@ -50,8 +49,8 @@ section.box {
 
 h1 {
   font-size: 195%;
-  color: white;
-  width: 64%;
+  color: #296297;
+  width: 271px;
   text-align: left;
   padding-left: 31px;
   margin-top: 5px;
@@ -64,13 +63,13 @@ h2 {
 }
 
 img.workpic {
-  width: 200px;
-  height: 150px;
+  width: 280px;
+  height: 190px;
   border: solid 3px lightblue;
   margin: 3px;
 }
 
 img.headerpic {
-  width: 1000px;
+  width: 2000px;
   height: 100px;
 }
