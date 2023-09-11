@@ -73,3 +73,15 @@ img.headerpic {
   width: 2000px;
   height: 100px;
 }
+
+#about {
+  margin-right: 325px;
+}
+
+#work {
+  margin-right: 219px;
+}
+
+#contact {
+  margin-right: 303px;
+}
