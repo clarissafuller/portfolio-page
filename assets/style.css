@@ -7,11 +7,6 @@
 }
 
 body {
-  font-family: Arial;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: flex-start;
 }
 
 header {
@@ -39,49 +34,25 @@ nav a {
   justify-content: flex-end;
   flex-wrap: wrap;
 }
-section.box {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-
-h1 {
-  font-size: 195%;
-  color: #296297;
-  width: 271px;
-  text-align: left;
-  padding-left: 31px;
-  margin-top: 5px;
-}
-
-h2 {
-  font-size: 167%;
-  border-right: rgb(28, 28, 56) 5px solid;
-  height: 100px;
-}
-
-img.workpic {
-  width: 280px;
-  height: 190px;
-  border: solid 3px lightblue;
-  margin: 3px;
-}
-
-img.headerpic {
-  width: 2000px;
-  height: 100px;
-}
 
 #about {
-  margin-right: 325px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#self-pic {
+  width: 250px;
 }
 
 #work {
-  margin-right: 219px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-#contact {
-  margin-right: 303px;
+#climate-closet-logo {
+  width: 210px;
 }
